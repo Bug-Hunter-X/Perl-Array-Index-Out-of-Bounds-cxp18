@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element;if ($#array >= 2) {  $element = $array[2];} else {  $element = undef; # Handle out of bounds condition}print "Element: ", $element unless !defined $element; # Safe access
